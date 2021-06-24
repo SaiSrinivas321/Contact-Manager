@@ -1,0 +1,70 @@
+.App{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.input{
+    margin: 5px;
+    width:auto;
+}
+
+.subbtn{
+    width: auto;
+    margin:auto;
+}
+ .Cform{
+    align-items: center;
+}
+
+li{
+    list-style-type: none;
+}
+
+.contacts{
+   justify-content: center;
+}
+.contact{
+    width:300px;
+    margin:10px;
+    padding:10px;
+    cursor: pointer;
+    background-color:black;
+    color:white;
+   
+}
+
+.contacts :hover{
+    border-radius:20px;
+}
+.contact :hover{
+    box-shadow:  0 6px 20px  0 red;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 2.5px;
+}
+
+a:hover{
+
+    text-decoration:underline;
+    box-shadow: none  !important; 
+
+}
+
+.icon{
+    
+    font-size: 24px;
+    margin: 10px;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 600px){
+    .logo{
+        width: 250px;
+        height:auto;
+    }
+
+}
